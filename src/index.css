@@ -1,3 +1,6 @@
+body.dark-mode {
+  background-color: #1a1a1a;
+}
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -23,9 +26,8 @@ a:hover {
 }
 
 body {
-  margin: 0;
-  display: flex;
-  place-items: center;
+  display: -moz-box;
+  place-items: top center;
   min-width: 320px;
   min-height: 100vh;
 }
