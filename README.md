@@ -67,3 +67,14 @@ export default tseslint.config([
   },
 ])
 ```
+## Deployment
+
+Build the optimized site and preview it locally:
+
+```bash
+npm run build
+npm run preview
+```
+
+The `dist` directory can be served by any static hosting platform.
+
