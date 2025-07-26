@@ -39,6 +39,16 @@ export default tseslint.config([
 ])
 ```
 
+## Deploying to GitHub Pages
+
+After building the project you can publish the `dist` folder using the included deploy script. This requires push access to your repository.
+
+```bash
+npm run deploy
+```
+
+The command runs the production build and uploads the output in `dist/` to the `gh-pages` branch so the site can be served via GitHub Pages.
+
 You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
 
 ```js
